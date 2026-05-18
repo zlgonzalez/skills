@@ -9,6 +9,7 @@ allowed-tools: stitch.list_projects stitch.get_screen_code stitch.get_screen_ima
 ## Prerequisites
 - You must verify that the Stitch MCP server is live by running `stitch.list_projects`.
 - If an API error occurs, prompt the user to check their `STITCH_API_KEY` in Antigravity's MCP settings.
+- Ensure that you only replicate one project and if it's not clear which project, list all the projects, both main and shared and ask the user to select.
 
 ## Execution Steps
 
